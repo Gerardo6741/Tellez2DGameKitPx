@@ -8,7 +8,7 @@ public class DestroyComponet : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKey(KeyCode.Space))
+        if (Input.GetKey(KeyCode.D))
         {
             Destroy(GetComponent<MeshRenderer>());
         }
